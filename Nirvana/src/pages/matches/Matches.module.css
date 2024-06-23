@@ -1,0 +1,91 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff0f5; /* Light rose gold background */
+  }
+  
+  .card {
+    display: flex;
+    background-color: #ffe4e1; /* Rose gold background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .imageContainer {
+    flex: 1;
+    min-width: 150px;
+    max-width: 200px;
+    overflow: hidden;
+  }
+  
+  .matchImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 1px solid #ddd;
+  }
+  
+  .infoContainer {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .infoContainer h1,
+  .infoContainer h2,
+  .infoContainer h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .infoContainer h1 {
+    font-size: 24px;
+  }
+  
+  .infoContainer h2 {
+    font-size: 20px;
+  }
+  
+  .infoContainer h3 {
+    font-size: 18px;
+  }
+  
+  .button {
+    background-color: #ff69b4; 
+    width: 50px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #db7093; 
+  }
+  
+  .icon_like {
+    margin-left: 8px;
+    color: #fff;
+  }
+  

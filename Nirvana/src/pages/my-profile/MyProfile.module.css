@@ -1,0 +1,29 @@
+.profile_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .profile_info, .profile_preferences {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile_info h2, .profile_preferences h2 {
+    text-align: center;
+  }
+  
+  .info_list, .preference_list {
+    margin-top: 10px;
+  }
+  
+  .info_list div, .preference_list div {
+    margin-bottom: 5px;
+  }
+  
+  .info_list strong, .preference_list strong {
+    margin-right: 5px;
+  }
+  
